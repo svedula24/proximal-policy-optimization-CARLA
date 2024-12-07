@@ -3,13 +3,11 @@ This repo is describes how to run a Reinforcement Learning (RL) experiement with
 
 Documentation: https://stable-baselines3.readthedocs.io/en/master/
 ## Package Setup
-### 1. Create a conda environment if you have not already done so. 
+### 1. Create a conda environment. 
 
 - https://docs.anaconda.com/miniconda/
 - `conda create -n carla python=3.8`
-- Keep in mind, this will require python 3.8 to run Carla properly
-- Remember that you can always create a new environment, if an old one has been messed up.
-
+- This requires python 3.8 in order to work with CARLA properly
 
 ### 2. Activate your Conda Environment in the command line
 
