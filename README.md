@@ -1,39 +1,79 @@
-# Proximal Policy Optimization using CARLA Driving Simulator
-This repo is describes how to run a Reinforcement Learning (RL) experiement with CARLA. We worked with the Proximal Policy Optimization Algorithim using StableBaselines3.
+---
 
-Documentation: https://stable-baselines3.readthedocs.io/en/master/
-## Instructions
-### 1. Create a conda environment. 
+# 🚗 Proximal Policy Optimization using CARLA Driving Simulator
 
-- https://docs.anaconda.com/miniconda/
-- `conda create -n carla python=3.8`
-- This requires python 3.8 in order to work with CARLA properly
+This repository demonstrates how to run a Reinforcement Learning (RL) experiment with the CARLA Driving Simulator. We implemented the **Proximal Policy Optimization (PPO)** algorithm using **StableBaselines3**.
 
-### 2. Activate your Conda Environment in the command line
+📚 **Documentation**: [Stable-Baselines3 Docs](https://stable-baselines3.readthedocs.io/en/master/)
 
-- `conda activate [env_name]`
+---
 
+## 🚀 Instructions
 
-### 3. Install the following dependencies.
+### 1. 🛠️ **Create a Conda Environment**
 
-- `pip install stable-baselines3`
-- `pip install tensorflow`
--  `pip install opencv-python`
+- Follow the official guide to install Miniconda: [Miniconda Installation](https://docs.anaconda.com/miniconda/)
+- Create a new Conda environment:
+  ```bash
+  conda create -n carla python=3.8
+  ```
+  This requires Python 3.8 for proper compatibility with CARLA.
 
-### 5. Run Carla on your terminal at the specifed port number
-- `./CarlaUE4.sh -carla-rpc-port=2000 -norelativemousemode` # port 2000 is the port number we are using
+---
 
+### 2. ⚙️ **Activate Your Conda Environment**
 
-### 6. Open the files train.py and carenv.py in your IDE, and activate the Conda Environment in your terminal 
-- Run `conda activate [env-name]` in your IDE terminal.
-- You should see an indication that you are in the environment, as presented below
+In your command line, run:
+```bash
+conda activate [env_name]
+```
 
-### 7. Run the file train.py in the terminal
-- `python train.py`
+---
 
-### 8. Watch as your model trains!
+### 3. 📦 **Install Dependencies**
 
+Install the necessary Python packages using `pip`:
 
+```bash
+pip install stable-baselines3
+pip install tensorflow
+pip install opencv-python
+```
 
+---
 
+### 4. 🏁 **Run CARLA**
+
+Start the CARLA simulator on your terminal at the specified port number:
+
+```bash
+./CarlaUE4.sh -carla-rpc-port=2000 -norelativemousemode
+```
+(Port 2000 is used in this example)
+
+---
+
+### 5. 🖥️ **Open the Files**
+
+- Open `train.py` and `carenv.py` in your favorite IDE.
+- Activate the Conda environment in your IDE terminal by running:
+  ```bash
+  conda activate [env-name]
+  ```
+  You should see confirmation that the environment is activated.
+
+---
+
+### 6. 🎬 **Run the Training Script**
+
+Execute the following in your terminal to start training your model:
+```bash
+python train.py
+```
+
+---
+
+### 7. 👀 **Watch Your Model Train!**
+
+Enjoy watching your model improve as it learns from the environment!
 
