@@ -1,8 +1,7 @@
----
-
+```markdown
 # 🚗 Proximal Policy Optimization using CARLA Driving Simulator
 
-- This repository demonstrates how to run a Reinforcement Learning (RL) experiment with the CARLA Driving Simulator. We implemented the **Proximal Policy Optimization (PPO)** algorithm using **StableBaselines3**.
+This repository demonstrates how to run a Reinforcement Learning (RL) experiment with the CARLA Driving Simulator. We implemented the **Proximal Policy Optimization (PPO)** algorithm using **StableBaselines3**.
 
 📚 **Documentation**: [Stable-Baselines3 Docs](https://stable-baselines3.readthedocs.io/en/master/)
 
@@ -19,16 +18,12 @@
   ```
   This requires Python 3.8 for proper compatibility with CARLA.
 
----
-
 ### 2. ⚙️ **Activate Your Conda Environment**
 
 In your command line, run:
 ```bash
 conda activate [env_name]
 ```
-
----
 
 ### 3. 📦 **Install Dependencies**
 
@@ -40,8 +35,6 @@ pip install tensorflow
 pip install opencv-python
 ```
 
----
-
 ### 4. 🏁 **Run CARLA**
 
 Start the CARLA simulator on your terminal at the specified port number:
@@ -50,8 +43,6 @@ Start the CARLA simulator on your terminal at the specified port number:
 ./CarlaUE4.sh -carla-rpc-port=2000 -norelativemousemode
 ```
 (Port 2000 is used in this example)
-
----
 
 ### 5. 🖥️ **Open the Files**
 
@@ -62,8 +53,6 @@ Start the CARLA simulator on your terminal at the specified port number:
   ```
   You should see confirmation that the environment is activated.
 
----
-
 ### 6. 🎬 **Run the Training Script**
 
 Execute the following in your terminal to start training your model:
@@ -71,9 +60,9 @@ Execute the following in your terminal to start training your model:
 python train.py
 ```
 
----
-
 ### 7. 👀 **Watch Your Model Train!**
 
 Enjoy watching your model improve as it learns from the environment!
+```
 
+Make sure that there is no space before or after the `---` for horizontal lines, and this should resolve the issue.
