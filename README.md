@@ -14,22 +14,14 @@ Documentation: https://stable-baselines3.readthedocs.io/en/master/
 - `conda activate [env_name]`
 
 
-### 3. Install Stable Baselines 3 with the following command.
+### 3. Install the following dependencies.
 
 - `pip install stable-baselines3`
-
-
-### 4. Install python packages Tensorflow and Open-CV.
-
 - `pip install tensorflow`
 -  `pip install opencv-python`
 
-
 ### 5. Run Carla on your terminal at the specifed port number
 - `./CarlaUE4.sh -carla-rpc-port=2000 -norelativemousemode` # port 2000 is the port number we are using
-
-
-![image](https://github.com/user-attachments/assets/b319b76a-bdbf-46e6-b5f6-813453eb55e3)
 
 ## Run Files on the GUI
 #### Disclaimer
