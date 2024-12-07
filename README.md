@@ -2,7 +2,7 @@
 
 # 🚗 Proximal Policy Optimization using CARLA Driving Simulator
 
-This repository demonstrates how to run a Reinforcement Learning (RL) experiment with the CARLA Driving Simulator. We implemented the **Proximal Policy Optimization (PPO)** algorithm using **StableBaselines3**.
+- This repository demonstrates how to run a Reinforcement Learning (RL) experiment with the CARLA Driving Simulator. We implemented the **Proximal Policy Optimization (PPO)** algorithm using **StableBaselines3**.
 
 📚 **Documentation**: [Stable-Baselines3 Docs](https://stable-baselines3.readthedocs.io/en/master/)
 
